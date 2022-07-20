@@ -55,9 +55,6 @@ Global Styles
 @import url(../scss/icons/linea-icons/linea.css);
 @import url(../scss/icons/themify-icons/themify-icons.css);
 @import url(../scss/icons/flag-icon-css/flag-icon.min.css);
-@import url(../scss/icons/material-design-iconic-font/css/materialdesignicons.min.css);
-@import url(../css/spinners.css);
-@import url(../css/animate.css);
 * {
   outline: none; }
 
@@ -3094,12 +3091,6 @@ form p:last-child {
 
 /* Switch
    ========================================================================== */
-.switch,
-.switch * {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -ms-user-select: none; }
 
 .switch label {
   cursor: pointer; }
@@ -5768,7 +5759,8 @@ File: scss
       -webkit-flex-wrap: nowrap;
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-      -webkit-align-items: center; }
+      -webkit-align-items: center;
+    align-items: center; }
       .topbar .top-navbar .navbar-collapse {
         display: -webkit-box;
         display: -webkit-flex;
