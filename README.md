@@ -4,6 +4,11 @@
 
 Este es un servidor de express listo para ejecutarse junto a la carpeta public en la web para la materia de aplicaciones distribuidas.
 
+> Integrantes: `Kevin Armas,
+Pepe Carrillo,
+Sebastián Soberón,
+Jhonnatan Tipan`
+
 ## _Instalación_
 
 Se debe reconstruir los módulos de node con el comando
